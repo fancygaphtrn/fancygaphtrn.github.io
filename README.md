@@ -1,6 +1,3 @@
-# fancygaphtrn.github.io
-My person playground of things I like to do.
-
 This is the personal playground of Tod Price, a.k.a HTRN. This is where I post information on my crafts, interests, hobbies and other things, the Internet community may find of interest.
 
 So what is a HTRN? A HTRN is a **H**igh **T**ech **R**ed **N**eck. This is a nick name I acquired working the tech industry. Not a real "Redneck", but people in the city thought I was one. I am a person that city people consider maybe a hick or a country boy. Why, because I am different and not part of their rat race. I am happy with the little things in life and very comfortable with technology. I actually find it easy to apply.
