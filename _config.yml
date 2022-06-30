@@ -31,6 +31,7 @@ github_username:  fancygaphtrn
 theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
+show_downloads: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
