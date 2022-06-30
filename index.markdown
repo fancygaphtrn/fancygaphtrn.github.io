@@ -10,6 +10,6 @@ So what is a HTRN? A HTRN is a **H**igh **T**ech **R**ed **N**eck. This is a nic
 
 In my instance, I live in the middle of the Western Virginia mountains (No not West Virginia), until recently not connected to the power grid and still have all the comforts of any other home. Even before Al Gore invented the Internet and Global Warming.
 
-![Antique log cabin](assets/images/cabin.jpg)I live in an antique log cabin, In the middle of nowhere.  Use Solar for electricity, a mountain spring for water, raise a garden, ride a 4-wheeler and ~~commute to the city for employment~~ retired. To further reduce my carbon footprint, I recently (Spring 2007) had the grid connected so that I didn't ever have to run my gas generator. The Grid is our new "backup" power source.
+![Antique log cabin](assets/images/cabin.jpg){: .img_float_right}I live in an antique log cabin, In the middle of nowhere.  Use Solar for electricity, a mountain spring for water, raise a garden, ride a 4-wheeler and ~~commute to the city for employment~~ retired. To further reduce my carbon footprint, I recently (Spring 2007) had the grid connected so that I didn't ever have to run my gas generator. The Grid is our new "backup" power source.
 
 My current interests include; Woodworking (mostly on the lathe),  Home automaion (Home Assistant) and Gardening.
