@@ -143,9 +143,9 @@ function tofraction(dec) {
 
  num = dec.toString().split('.',2);
  if (typeof num[1] === 'undefined') {
-	num[1] = 0;
+	num[1] = "0";
  }
- var dec = num[1].toInt();
+ var dec = parseInt(num[1]);
  var div = Math.pow(10,num[1].toString().length);
 
  denominator = 16;
