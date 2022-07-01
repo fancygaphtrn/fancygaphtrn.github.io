@@ -2,8 +2,6 @@
 title: "Unit coverter"
 layout: page
 ---
-##Unit converter
-
 <style type="text/css"> 
 <!--
 *.type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
@@ -837,17 +835,6 @@ function fillLists() {                                                          
    enlist("[yd^3/d] Cubic yard per day",            0.764554857984/86400.0);} } //   1 [yd^3/d] = 0.7645549/86400[m^3/s]
 //-->
 </script> 
-<div class="contentpane<?php echo $this->pageclass_sfx; ?>">
-<?php if ($this->params->get('show_page_heading')) : ?>
-	<h1>
-		<?php if ($this->escape($this->params->get('page_heading'))) :?>
-			<?php echo $this->escape($this->params->get('page_heading')); ?>
-		<?php else : ?>
-			<?php echo $this->escape($this->params->get('page_title')); ?>
-		<?php endif; ?>
-	</h1>
-<?php endif; ?>
-
 <table width="100%" cellpadding="4" cellspacing="0" border="0" align="center" class="contentpane">
 <tr>
 <td>
@@ -896,7 +883,6 @@ function fillLists() {                                                          
 </td>
 </tr>
 </table>
-</div>
 <script type="text/javascript"> 
 <!--
   initialize();

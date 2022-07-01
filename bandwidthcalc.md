@@ -2,8 +2,6 @@
 title: "Bandwidth Calc"
 layout: page
 ---
-##Bandwidth calculator
-
 <script type="text/javascript">
 <!--
 function docalc()

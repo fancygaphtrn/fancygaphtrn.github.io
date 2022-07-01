@@ -21,7 +21,7 @@
 title: FancygapHTRN
 email: your-email@example.com
 description: >- 
-  My person playground of things I like to do.
+  My personal playground of things I like to do.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
