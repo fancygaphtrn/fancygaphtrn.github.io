@@ -4,7 +4,7 @@ layout: page
 ---
 <script type="text/javascript">
 <!--
-window.addEvent('domready', function() {
+window.onload = function() {
 	doouter();
 });
 function draw(){
@@ -263,7 +263,7 @@ function docalc() {
     </tr>
     <tr>
         <td><label>Fudge factor (in)</label></td>
-        <td><input type="number" name="fudgefactor" onchange="docalc()" step="0.125" value="0.25" maxlength="8 size="8" />	</td>
+        <td><input type="number" name="fudgefactor" onchange="docalc()" step="0.125" value="0.25" maxlength="8" size="8" />	</td>
         <td><input type="text" name="fudgefactorfraction" disabled="disabled" size="8" />	</td>
     </tr>
     <tr>
@@ -330,4 +330,3 @@ This calculator is used to for automating the process of creating rings for a se
 </td>
 </tr>
 </table>
-</div>
