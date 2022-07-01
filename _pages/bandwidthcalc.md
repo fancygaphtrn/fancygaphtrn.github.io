@@ -22,36 +22,36 @@ function docalc()
 <form name="temps" action="">
 <table align="center">
   <tr>
-      <td valign="top">Data volume (MB)</td>
-	  <td valign="top"<input type="text" name="data_volume" onchange="docalc()" style="width:150px" value="1" maxlength="10" size="10" />	</td>
+    <td valign="top">Data volume (MB)</td>
+	  <td valign="top"><input type="text" name="data_volume" onchange="docalc()" style="width:150px" value="1" maxlength="10" size="10" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">Time Window (hours)</td>
-	  <td valign="top"<input type="text" name="time_window" onchange="docalc()" style="width:150px" value="10" size="10" maxlength="10" />	</td>
+	  <td valign="top"><input type="text" name="time_window" onchange="docalc()" style="width:150px" value="10" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">Compression Ratio</td>
-	  <td valign="top"<input type="text" name="compression_ratio" onchange="docalc()" style="width:150px" value="1" size="10" maxlength="10" />	</td>
+	  <td valign="top"><input type="text" name="compression_ratio" onchange="docalc()" style="width:150px" value="1" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
-	  <td valign="top"<?php echo 'WAN Bandwidth (Mbps)'; ?></td>
-	  <td valign="top"<input type="text" name="WAN_bandwidth" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><?php echo 'WAN Bandwidth (Mbps)</td>
+	  <td valign="top"><input type="text" name="WAN_bandwidth" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">Latency (ms)></td>
-	  <td valign="top"<input type="text" name="latency" onchange="docalc()" style="width:150px" value="40" size="10" maxlength="10" />	</td>
+	  <td valign="top"><input type="text" name="latency" onchange="docalc()" style="width:150px" value="40" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">TCP window size (KB)</td>
-	  <td valign="top"<input type="text" name="window_size" onchange="docalc()" style="width:150px" value="65" size="10" maxlength="10" />	</td>
+	  <td valign="top"><input type="text" name="window_size" onchange="docalc()" style="width:150px" value="65" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">TCP session throughput (Mbps)</td>
-	  <td valign="top"<input type="text" name="session_throughput" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><input type="text" name="session_throughput" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">TCP Sessions required</td>
-	  <td valign="top"<input type="text" name="sessions" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><input type="text" name="sessions" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
 	</tr>
 </table>
 </form>
