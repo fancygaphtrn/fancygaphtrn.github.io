@@ -11,9 +11,3 @@ In my instance, I live in the middle of the Western Virginia mountains (No not W
 
 My current interests include; Woodworking (mostly on the lathe),  Home automaion (Home Assistant) and Gardening.
 
-
-<code>{{ site.pages }}</code>
-<code>{{ default_paths }}</code>
-<code>{{ pages_paths }}</code>
-
-
