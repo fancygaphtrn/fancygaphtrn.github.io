@@ -1,5 +1,5 @@
 ---
-title: Bandwidth Calc
+title: "Bandwidth Calc"
 layout: page
 ---
 ##Bandwidth calculator
@@ -34,11 +34,11 @@ function docalc()
 	  <td valign="top"><input type="text" name="compression_ratio" onchange="docalc()" style="width:150px" value="1" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
-	  <td valign="top"><?php echo 'WAN Bandwidth (Mbps)</td>
+	  <td valign="top">WAN Bandwidth (Mbps)</td>
 	  <td valign="top"><input type="text" name="WAN_bandwidth" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
 	</tr>
 	<tr>
-	  <td valign="top">Latency (ms)></td>
+	  <td valign="top">Latency (ms)</td>
 	  <td valign="top"><input type="text" name="latency" onchange="docalc()" style="width:150px" value="40" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
@@ -78,7 +78,7 @@ T = (w / l)<br />
 <br />
 T = Maximum TCP session throughput in Bps<br />
 w = TCP stack window size in bytes<br />
-l = Roundtrip network latency in seconds<br />'; ?>
+l = Roundtrip network latency in seconds<br />
 	  </td>
 	</tr>
 </table>
