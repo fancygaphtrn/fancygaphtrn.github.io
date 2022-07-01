@@ -878,7 +878,7 @@ function fillLists() {                                                          
   </table> 
  <!-- Undisplayed image needed to catch enter key -> Onsubmit form with the routine 'enter()', see above --> 
  <input type="image" src=""
-        style="display:hidden; border-width:0; border-style:none; margin:0; padding:0; width=0; height:0;"> 
+        style="display:none; border-width:0; border-style:none; margin:0; padding:0; width:0; height:0;"> 
 </form> 
 </td>
 </tr>
