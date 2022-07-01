@@ -12,7 +12,7 @@ function draw(){
     sides = parseInt(id.segments.value);
     var font = "sans";
     var fontsize = 16;
-    var canvas = $('canvas');
+    var canvas = document.getElementById('canvas');;
     if (canvas.getContext){
         var ctx = canvas.getContext('2d');
         ctx.clearRect( 0, 0, canvas.width,canvas.height );            
