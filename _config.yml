@@ -62,7 +62,7 @@ defaults:
       path: _posts
     values:
       is_post: true
-      layout: default
+      layout: post
       permalink: /blog/:categories/:title/
   -
     scope:
@@ -70,4 +70,4 @@ defaults:
       path: _pages
     values:
       is_post: false
-      layout: default
+      layout: page
