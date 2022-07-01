@@ -1,16 +1,10 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-
-#downloads {
-  margin-bottom: 0px;
-}
-header {
-    padding-top: 20px;
-    padding-bottom: 0px;
-}
-
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+  
 .img_float_left {
     float: left;
     margin-right: 5px;
