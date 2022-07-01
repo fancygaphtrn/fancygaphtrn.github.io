@@ -6,7 +6,7 @@ layout: page
 <!--
 window.onload = function() {
 	doouter();
-});
+};
 function draw(){
     var id = document.temps;
     sides = parseInt(id.segments.value);

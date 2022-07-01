@@ -33,7 +33,7 @@ function docalc()
 	</tr>
 	<tr>
 	  <td valign="top">WAN Bandwidth (Mbps)</td>
-	  <td valign="top"><input type="text" name="WAN_bandwidth" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><input type="text" name="WAN_bandwidth" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" disabled="disabled" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">Latency (ms)</td>
@@ -45,11 +45,11 @@ function docalc()
 	</tr>
 	<tr>
 	  <td valign="top">TCP session throughput (Mbps)</td>
-	  <td valign="top"><input type="text" name="session_throughput" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><input type="text" name="session_throughput" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" disabled="disabled" />	</td>
 	</tr>
 	<tr>
 	  <td valign="top">TCP Sessions required</td>
-	  <td valign="top"><input type="text" name="sessions" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" readonly="readonly" />	</td>
+	  <td valign="top"><input type="text" name="sessions" onchange="docalc()" style="width:150px" value="0" size="10" maxlength="10" disabled="disabled" />	</td>
 	</tr>
 </table>
 </form>
