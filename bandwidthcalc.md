@@ -55,7 +55,7 @@ function docalc()
 </form>
 <table align="center">
 	<tr>
-	  <td
+	  <td>
       <br /><b>Bandwidth requirements calculation</b><br />
 In order to estimate the bandwidth needed the following calculation was used:<br />
 <br />

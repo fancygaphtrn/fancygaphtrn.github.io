@@ -293,7 +293,7 @@ function docalc() {
     </tr>
     <tr>
         <td><label>Saw blade width</label></td>
-        <td><input type="number" name="sawwidthdecimal" onchange="docalc()" step="0.125" value="0.125" maxlength="8 size="8" />	</td>
+        <td><input type="number" name="sawwidthdecimal" onchange="docalc()" step="0.125" value="0.125" maxlength="8" size="8" />	</td>
         <td><input type="text" name="sawwidthfraction" disabled="disabled" size="8" />	</td>
     </tr>
     <tr>
