@@ -1,9 +1,10 @@
 ---
 title: "Ohms law"
 layout: default
+parent: Calculators
 permalink: /calculators/ohmslaw
 ---
-## {{page.title}}
+# {{page.title}}
 <script type="text/javascript">
 <!--
 function perRound(num, precision) {

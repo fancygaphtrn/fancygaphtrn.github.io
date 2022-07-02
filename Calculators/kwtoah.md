@@ -1,9 +1,10 @@
 ---
 title: "KW hours to Amp hours"
 layout: default
+parent: Calculators
 permalink: /calculators/kwtoah
 ---
-## {{page.title}}
+# {{page.title}}
 <script type="text/javascript">
 <!--
 function perRound(num, precision) {

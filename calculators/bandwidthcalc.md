@@ -1,9 +1,10 @@
 ---
 title: "Bandwidth Req. Calc"
 layout: default
+parent: Calculators
 permalink: /calculators/bandwidthcalc
 ---
-## {{page.title}}
+# {{page.title}}
 <script type="text/javascript">
 <!--
 function docalc()

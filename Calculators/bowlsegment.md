@@ -1,9 +1,10 @@
 ---
 title: "Bowl segment"
 layout: default
+parent: Calculators
 permalink: /calculators/bowlsegment
 ---
-## {{page.title}}
+# {{page.title}}
 <script type="text/javascript">
 <!--
 window.onload = function() {

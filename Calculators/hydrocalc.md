@@ -1,9 +1,10 @@
 ---
 title: "Hydro calc"
 layout: default
+parent: Calculators
 permalink: /calculators/hydrocalc
 ---
-## {{page.title}}
+# {{page.title}}
 <script type="text/javascript">
 <!--
 function perRound(num, precision) {
