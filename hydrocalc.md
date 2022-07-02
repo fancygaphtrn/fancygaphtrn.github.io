@@ -83,40 +83,40 @@ function clearForm4()
 <form name="temps">
 <table align="center">
     <tr>
-      <th valign="top"><?php echo 'Head(feet)</th>
-      <th valign="top"><?php echo 'Flow(gallons per minute)</th>
-      <th valign="top"><?php echo 'Efficiency(%)</th>
-      <th valign="top"><?php echo 'Watts</th>
-      <th valign="top"><?php echo '&nbsp;</th>
+      <th valign="top">Head(feet)</th>
+      <th valign="top">Flow(gallons per minute)</th>
+      <th valign="top">Efficiency(%)</th>
+      <th valign="top">Watts</th>
+      <th valign="top">&nbsp;</th>
   	</tr>
     <tr>
   	  <td valign="top"><input type="text" name="head2" onChange="docalc2()" style="width:6em" value="" maxlength="6" size="6">	</td>
   	  <td valign="top"><input type="text" name="flow2" onChange="docalc2()" style="width:6em" value="" maxlength="6" size="6">	</td>
   	  <td valign="top"><input type="text" name="efficiency2" onChange="docalc2()" style="width:3em" value="50" maxlength="3" size="3">	</td>
   	  <td valign="top"><input type="text" name="watts2" disabled="disabled" style="width:6em" value="" maxlength="6" size="6">	</td>
-  	  <td valign="top"><INPUT TYPE="button"  VALUE="<?php echo 'Clear" onClick=clearForm2()>	</td>
+  	  <td valign="top"><INPUT TYPE="button"  VALUE="Clear" onClick=clearForm2()>	</td>
     </tr>
     <tr>
-      <th valign="top"><?php echo 'Head(feet)</th>
-      <th valign="top"><?php echo 'Flow(Cubic Feet per Second)</th>
-      <th valign="top"><?php echo '&nbsp;</th>
-      <th valign="top"><?php echo 'Watts</th>
-      <th valign="top"><?php echo '&nbsp;</th>
+      <th valign="top">Head(feet)</th>
+      <th valign="top">Flow(Cubic Feet per Second)</th>
+      <th valign="top">&nbsp;</th>
+      <th valign="top">Watts</th>
+      <th valign="top">&nbsp;</th>
   	</tr>
     <tr>
   	  <td valign="top"><input type="text" name="head3" onChange="docalc3()" style="width:6em" value="" maxlength="6" size="6">	</td>
   	  <td valign="top"><input type="text" name="flow3" onChange="docalc3()" style="width:6em" value="" maxlength="6" size="6">	</td>
-  	  <td valign="top"><?php echo '&nbsp;</td>
+  	  <td valign="top">&nbsp;</td>
   	  <td valign="top"><input type="text" name="watts3" disabled="disabled" style="width:6em" value="" maxlength="6" size="6">	</td>
-  	  <td valign="top"><INPUT TYPE="button"  VALUE="<?php echo 'Clear" onClick=clearForm3()>	</td>
+  	  <td valign="top"><INPUT TYPE="button"  VALUE="Clear" onClick=clearForm3()>	</td>
     </tr>
 </table>
 <table align="center">
     <tr>
-      <th valign="top"><?php echo 'Static Pressure(psi)</th>
-      <th valign="top"><?php echo 'Head(feet)</th>
-      <th valign="top"><?php echo 'Head(meters)</th>
-      <th valign="top"><?php echo '&nbsp;</th>
+      <th valign="top">Static Pressure(psi)</th>
+      <th valign="top">Head(feet)</th>
+      <th valign="top">Head(meters)</th>
+      <th valign="top">&nbsp;</th>
   	</tr>
     <tr>
   	  <td valign="top"><input type="text" name="pressure4" onChange="docalc4()" style="width:6em" value="" maxlength="6" size="4">	</td>

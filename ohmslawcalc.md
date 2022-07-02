@@ -1,5 +1,5 @@
 ---
-title: "KW hours to Amp hours"
+title: "Ohms law"
 layout: page
 ---
 <script type="text/javascript">
@@ -42,15 +42,15 @@ function clearForm()
 <form name="temps" action="">
 <table align="center">
     <tr>
-      <td valign="top"><?php echo 'Volts'; ?></td>
+      <td valign="top">Volts'; ?></td>
 	  <td valign="top"><input type="text" name="volts" style="width:150px" value="" maxlength="10" size="10" />	</td>
 	</tr>
 	<tr>
-	  <td valign="top"><?php echo 'Amperes'; ?></td>
+	  <td valign="top">Amperes'; ?></td>
 	  <td valign="top"><input type="text" name="amperes" style="width:150px" value="" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
-	  <td valign="top"><?php echo 'Watts'; ?></td>
+	  <td valign="top">Watts'; ?></td>
 	  <td valign="top"><input type="text" name="watts" style="width:150px" value="" size="10" maxlength="10" />	</td>
 	</tr>
 	<tr>
