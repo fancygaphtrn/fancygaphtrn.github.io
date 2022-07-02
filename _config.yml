@@ -29,7 +29,7 @@ github_username:  fancygaphtrn
 
 # Build settings
 #theme: jekyll-theme-tactile
-remote_theme: jekyll/minima
+remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
