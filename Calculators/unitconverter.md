@@ -2,6 +2,7 @@
 title: "Unit coverter"
 layout: page
 ---
+## {{page.title}}
 <style type="text/css"> 
 <!--
 *.type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;

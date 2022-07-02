@@ -2,6 +2,7 @@
 title: "Hydro calc"
 layout: page
 ---
+## {{page.title}}
 <script type="text/javascript">
 <!--
 function perRound(num, precision) {

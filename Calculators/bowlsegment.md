@@ -2,6 +2,7 @@
 title: "Bowl segment"
 layout: page
 ---
+## {{page.title}}
 <script type="text/javascript">
 <!--
 window.onload = function() {

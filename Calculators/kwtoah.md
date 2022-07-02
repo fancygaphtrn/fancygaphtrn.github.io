@@ -2,6 +2,7 @@
 title: "KW hours to Amp hours"
 layout: page
 ---
+## {{page.title}}
 <script type="text/javascript">
 <!--
 function perRound(num, precision) {

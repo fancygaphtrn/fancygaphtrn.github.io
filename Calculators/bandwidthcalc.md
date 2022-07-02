@@ -1,7 +1,8 @@
 ---
-title: "Bandwidth Calc"
+title: "Bandwidth Req. Calc"
 layout: page
 ---
+## {{page.title}}
 <script type="text/javascript">
 <!--
 function docalc()
