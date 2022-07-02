@@ -835,13 +835,13 @@ function fillLists() {                                                          
    enlist("[yd^3/d] Cubic yard per day",            0.764554857984/86400.0);} } //   1 [yd^3/d] = 0.7645549/86400[m^3/s]
 //-->
 </script> 
-<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center" class="contentpane">
+<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
 <tr>
 <td>
 <form name="converter" summary="converter" onsubmit="enter(); return false;"> 
   <table align="left"> 
     <tr><td style="text-align:right">Convert</td> 
-        <td><select id="type" class="inputbox" onchange="newType()"> 
+        <td><select id="type"  onchange="newType()"> 
                 <option id="temperature">         Temperature</option> 
                 <option id="telephony">     Telephony traffic</option> 
                 <option id="numbersystem">      Number system</option> 
@@ -867,14 +867,14 @@ function fillLists() {                                                          
     <tr><td>&nbsp;</td> 
         <td>&nbsp;</td></tr> 
     <tr><td style="text-align:right">From Value</td> 
-        <td><input  type="number" id="value"  class="inputbox" onkeyup="newValue()" /></td></tr> 
+        <td><input  type="number" id="value"   onkeyup="newValue()" /></td></tr> 
     <tr><td style="text-align:right">From Unit</td> 
-        <td><select id="base" class="inputbox" onchange="newBase()"></select></td></tr> 
+        <td><select id="base"  onchange="newBase()"></select></td></tr> 
     <tr><td></td><td style="text-align:center">=</td></tr> 
     <tr><td style="text-align:right">To</td> 
-        <td><input  id="result" class="inputbox" readonly="readonly" /></td></tr> 
+        <td><input  id="result"  readonly="readonly" /></td></tr> 
     <tr><td style="text-align:right">To Unit</td> 
-        <td><select id="target" class="inputbox" onchange="newTarget()"></select></td></tr> 
+        <td><select id="target"  onchange="newTarget()"></select></td></tr> 
   </table> 
  <!-- Undisplayed image needed to catch enter key -> Onsubmit form with the routine 'enter()', see above --> 
  <input type="image" src=""

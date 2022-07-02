@@ -63,7 +63,7 @@ function clearForm()
 <table align="center">
 	<tr>
 	  <td>
-      <b>{{site.title}}</b><br />
+      <b>{{page.title}}</b><br />
 Ohms Law is a electrical formula used to show the relationship between Volts(V), Amperes(A) and Watts(W):<br />
 <br />
 W = V * A<br />

@@ -56,7 +56,7 @@ function docalc()
 <table align="center">
 	<tr>
 	  <td>
-      <br /><b>Bandwidth requirements calculation</b><br />
+      <b>{{ page.title }}</b><br />
 In order to estimate the bandwidth needed the following calculation was used:<br />
 <br />
 T = (d / t) * (8 bits/Byte + 2 bits/Byte overhead) * (1 hour / 3600)<br />
