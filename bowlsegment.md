@@ -323,7 +323,11 @@ function docalc() {
 	</tr>
     <tr>
       <td>
+      <b>{{ page.title }}</b><br />
 This calculator is used to for automating the process of creating rings for a segmented bowls or vessels.
+      </td>
+      <td>
+Another nice bowl segment calculator [Segmented Turning Calculator](https://www.blocklayer.com/woodturning-segments.aspx)
       </td>
 	</tr>
 </table>
