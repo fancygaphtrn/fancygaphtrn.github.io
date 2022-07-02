@@ -28,7 +28,7 @@ function docalc()
 <form name="temps" action="">
 <table align="center">
     <tr>
-    <td valign="top">Watt hours</td>
+    <td valign="top">Watt hours in days</td>
 	  <td valign="top"><input type="text" name="kwh" style="width:150px" value="" maxlength="10" size="10" />	</td>
 	</tr>
 	<tr>
