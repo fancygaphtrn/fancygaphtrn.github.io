@@ -94,7 +94,7 @@ function clearForm4()
   	  <td valign="top"><input type="text" name="flow2" onChange="docalc2()" style="width:6em" value="" maxlength="6" size="6" />	</td>
   	  <td valign="top"><input type="text" name="efficiency2" onChange="docalc2()" style="width:3em" value="50" maxlength="3" size="3" />	</td>
   	  <td valign="top"><input type="text" name="watts2" disabled="disabled" style="width:6em" value="" maxlength="6" size="6" />	</td>
-  	  <td valign="top"><input type="button"  value="Clear" onClick=clearForm2() />	</td>
+  	  <td valign="top"><input type="button"  value="Clear" onClick="clearForm2()" />	</td>
     </tr>
     <tr>
       <th valign="top">Head(feet)</th>
@@ -108,7 +108,7 @@ function clearForm4()
   	  <td valign="top"><input type="text" name="flow3" onChange="docalc3()" style="width:6em" value="" maxlength="6" size="6" />	</td>
   	  <td valign="top">&nbsp;</td>
   	  <td valign="top"><input type="text" name="watts3" disabled="disabled" style="width:6em" value="" maxlength="6" size="6" />	</td>
-  	  <td valign="top"><input type="button"  value="Clear" onClick=clearForm3() />	</td>
+  	  <td valign="top"><input type="button"  value="Clear" onClick="clearForm3()" />	</td>
     </tr>
 </table>
 <table align="center">
@@ -122,7 +122,7 @@ function clearForm4()
   	  <td valign="top"><input type="text" name="pressure4" onChange="docalc4()" style="width:6em" value="" maxlength="6" size="4" />	</td>
   	  <td valign="top"><input type="text" name="headfeet4" disabled="disabled" style="width:6em" value="" maxlength="6" size="4" />	</td>
   	  <td valign="top"><input type="text" name="headmeters4" disabled="disabled" style="width:6em" value="" maxlength="6" size="4" />	</td>
-  	  <td valign="top"><input type="button"  value="Clear" onClick=clearForm4() />	</td>
+  	  <td valign="top"><input type="button"  value="Clear" onClick="clearForm4()" />	</td>
     </tr>
 </table>
 </form>
