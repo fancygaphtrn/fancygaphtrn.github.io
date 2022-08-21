@@ -6,7 +6,7 @@ permalink: /calculators/unitconverter
 ---
 # {{page.title}}
 <style type="text/css"> 
-<!--
+
 *.type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
 *.value  { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
@@ -17,11 +17,11 @@ permalink: /calculators/unitconverter
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
 *.target { width:200px;            text-align:left;     color:#000000;     background-color:#cccccc;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
--->
+
 </style> 
  
 <script type="text/javascript"> 
-<!--
+
 function initialize() {                                                         //>Initialize
  fillLists();                                                                   // FillLists (base, target)
  document.getElementById("value").value = "";                              // Write 'popup' into value-field
@@ -836,7 +836,6 @@ function fillLists() {                                                          
    enlist("[yd^3/m] Cubic yard per minute",         0.764554857984/60.0);       //   1 [yd^3/m] = 0.7645548579/60[m^3/s]
    enlist("[yd^3/h] Cubic yard per hour",           0.764554857984/3600.0);     //   1 [yd^3/h] = 0.76455486/3600[m^3/s]
    enlist("[yd^3/d] Cubic yard per day",            0.764554857984/86400.0);} } //   1 [yd^3/d] = 0.7645549/86400[m^3/s]
-//-->
 </script> 
 <table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
 <tr>
@@ -887,7 +886,5 @@ function fillLists() {                                                          
 </tr>
 </table>
 <script type="text/javascript"> 
-<!--
   initialize();
-//-->
 </script> 
