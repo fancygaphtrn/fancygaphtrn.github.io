@@ -2,7 +2,7 @@
 title: "Unit coverter"
 layout: default
 parent: Calculators
-permalink: /calculators/unitconverter
+permalink: /calculators/unitconvertermd
 ---
 # {{page.title}}
 <style type="text/css"> 
