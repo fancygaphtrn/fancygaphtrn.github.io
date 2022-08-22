@@ -54,7 +54,6 @@ function draw(){
 }
 function drawOval( ctx, x, y, radius, yRadius )
 {
-    // init variables
     var theta = 0;
     var xrCtrl = 0;
     var yrCtrl = 0;
@@ -65,41 +64,41 @@ function drawOval( ctx, x, y, radius, yRadius )
     var cx = 0;
     var cy = 0;
     
-    // if only yRadius is undefined, yRadius = radius
+    /* if only yRadius is undefined, yRadius = radius */
     if( yRadius == undefined ) 
     {
         yRadius = radius;
     }
     
-    // covert 45 degrees to radians for our calculations
+    /* covert 45 degrees to radians for our calculations */
     theta = Math.PI / 4;
     
-    // calculate the distance for the control point
+    /* calculate the distance for the control point */
     xrCtrl = radius / Math.cos( theta / 2 );
     yrCtrl = yRadius / Math.cos( theta / 2 );
     
-    // start on the right side of the circle
+    /* start on the right side of the circle */
     angle = 0;
     
     ctx.beginPath();
     ctx.moveTo( x + radius, y );
     
-    // this loop draws the circle in 8 segments
+    /* this loop draws the circle in 8 segments */
     for( var i = 0; i < 8; i++ ) 
     {
-        // increment our angles
+        /* increment our angles */
         angle += theta;
         angleMid = angle - ( theta / 2 );
         
-        // calculate our control point
+        /* calculate our control point */
         cx = x + Math.cos( angleMid ) * xrCtrl;
         cy = y + Math.sin( angleMid ) * yrCtrl;
         
-        // calculate our end point
+        /* calculate our end point */
         px = x + Math.cos( angle ) * radius;
         py = y + Math.sin( angle ) * yRadius;
         
-        // draw the circle segment
+        /* draw the circle segment */
         ctx.quadraticCurveTo( cx, cy, px, py );
     }
     
@@ -107,29 +106,29 @@ function drawOval( ctx, x, y, radius, yRadius )
 }
 function drawPoly( ctx, x, y, sides, radius, angle ) 
 {
-    // convert sides to positive value
+    /* convert sides to positive value */
     var count = Math.abs( sides );
     
-    // check that count is sufficient to build polygon
+    /* check that count is sufficient to build polygon */
     if( count > 2 ) 
     {
-        // init vars
+        /* init vars */
         var step = 0;
         var start = 0; 
         var n = 0;
         var dx = 0;
         var dy = 0;
         
-        // calculate span of sides
+        /* calculate span of sides */
         step = ( Math.PI * 2 ) / sides;
         
-        // calculate starting angle in radians
+        /* calculate starting angle in radians */
         start = ( angle / 180 ) * Math.PI;
         
         ctx.beginPath();
         ctx.moveTo( x + ( Math.cos( start ) * radius ), y - ( Math.sin( start ) * radius ) );
         
-        // draw the polygon
+        /* draw the polygon */
         for( n = 1; n <= count; n++ ) 
         {
             dx = x + Math.cos( start + ( step * n ) ) * radius;
