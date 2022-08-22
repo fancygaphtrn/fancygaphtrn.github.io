@@ -6,7 +6,7 @@ permalink: /calculators/bowlsegment
 ---
 # {{page.title}}
 <script type="text/javascript">
-<!--
+
 window.onload = function() {
 	doouter();
 };
@@ -231,7 +231,7 @@ function docalc() {
 
 }
 
-//-->
+
 </script>
 
 <table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
