@@ -200,7 +200,7 @@ function docalc() {
 	if (id.cutmethod.value == '0') {
 		id.boardlengthdecimal.value = ((parseFloat(id.longsidelengthdecimal.value) + parseFloat(id.sawwidthdecimal.value)) * segments).toFixed(4);
 	} else {
-		numlong = (segments / 2).toInt();
+		numlong = (segments / 2).parseInt();
 		numshort = segments - numlong;
 		numlonglength = (parseFloat(id.longsidelengthdecimal.value) + parseFloat(id.sawwidthdecimal.value)) * numlong;
 		numshortlength = (parseFloat(id.shortsidelengthdecimal.value) + parseFloat(id.sawwidthdecimal.value)) * numshort;
