@@ -7,7 +7,7 @@ my_js: |
 ---
 # {{page.title}}
 
-{% include /assets/js/bowlsegment.js %}
+<script src="{{ base.url | prepend: site.url }}/assets/js/bowlsegment.js"></script>
 	
 <table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
 <tr>
