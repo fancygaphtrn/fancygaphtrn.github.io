@@ -5,6 +5,7 @@ parent: Calculators
 permalink: /calculators/unitconvertermd
 ---
 # {{page.title}}
+<script src="{{ base.url | prepend: site.url }}/assets/js/unitconverter.js"></script>
 <style type="text/css"> 
 
 *.type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
