@@ -8,15 +8,15 @@ permalink: /calculators/unitconvertermd
 <script src="{{ base.url | prepend: site.url }}/assets/js/unitconverter.js"></script>
 <style type="text/css"> 
 
-*.type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
+#type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-*.value  { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
+#value  { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-*.base   { width:200px;            text-align:left;     color:#000000;     background-color:#99ff99;
+#base   { width:200px;            text-align:left;     color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-*.result { width:200px;            text-align:center;   color:#000000;     background-color:#cccccc;
+#result { width:200px;            text-align:center;   color:#000000;     background-color:#cccccc;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-*.target { width:200px;            text-align:left;     color:#000000;     background-color:#cccccc;
+#target { width:200px;            text-align:left;     color:#000000;     background-color:#cccccc;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
 
 </style> 
