@@ -1,5 +1,3 @@
-<script type="text/javascript">
-
 window.onload = function() {
 	doouter();
 };
@@ -220,6 +218,4 @@ function docalc() {
     id.boardlengthfraction.value = tofraction(parseFloat(id.boardlengthdecimal.value));
     
     draw();
-
 }
-</script>
