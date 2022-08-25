@@ -8,15 +8,15 @@ permalink: /calculators/unitconverter
 <script src="{{ base.url | prepend: site.url }}/assets/js/unitconverter.js"></script>
 <style type="text/css"> 
 
-#type   { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
+#type   { width:250px;            text-align:center;   color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-#value  { width:200px;            text-align:center;   color:#000000;     background-color:#99ff99;
+#value  { width:250px;            text-align:center;   color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-#base   { width:200px;            text-align:left;     color:#000000;     background-color:#99ff99;
+#base   { width:250px;            text-align:left;     color:#000000;     background-color:#99ff99;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-#result { width:200px;            text-align:center;   color:#000000;     background-color:#cccccc;
+#result { width:250px;            text-align:center;   color:#000000;     background-color:#cccccc;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
-#target { width:200px;            text-align:left;     color:#000000;     background-color:#cccccc;
+#target { width:250px;            text-align:left;     color:#000000;     background-color:#cccccc;
            margin:0px;             border-color:black;  border-width:1px;  border-style:solid;  }
 
 </style> 
@@ -50,8 +50,6 @@ permalink: /calculators/unitconverter
                 <option id="massFlux">              Mass flux</option> 
                 <option id="volumeFlux">          Volume flow</option> 
             </select></td></tr> 
-    <tr><td>&nbsp;</td> 
-        <td>&nbsp;</td></tr> 
     <tr><td style="text-align:right">From Value</td> 
         <td><input  type="number" id="value"   onkeyup="newValue()" /></td></tr> 
     <tr><td style="text-align:right">From Unit</td> 
