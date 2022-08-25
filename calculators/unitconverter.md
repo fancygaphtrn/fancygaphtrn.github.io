@@ -1,8 +1,8 @@
 ---
-title: "Unit coverter"
+title: "Unit converter"
 layout: default
 parent: Calculators
-permalink: /calculators/unitconvertermd
+permalink: /calculators/unitconverter
 ---
 # {{page.title}}
 <script src="{{ base.url | prepend: site.url }}/assets/js/unitconverter.js"></script>
@@ -56,7 +56,7 @@ permalink: /calculators/unitconvertermd
         <td><input  type="number" id="value"   onkeyup="newValue()" /></td></tr> 
     <tr><td style="text-align:right">From Unit</td> 
         <td><select id="base"  onchange="newBase()"></select></td></tr> 
-    <tr><td></td><td style="text-align:center">=</td></tr> 
+    <tr><td></td><td style="text-align:left">=</td></tr> 
     <tr><td style="text-align:right">To</td> 
         <td><input  id="result"  readonly="readonly" /></td></tr> 
     <tr><td style="text-align:right">To Unit</td> 
