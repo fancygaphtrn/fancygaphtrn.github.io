@@ -14,7 +14,7 @@ permalink: /calculators/nozzle_size
 <table align="center">
   <tr>
     <td>Pressure</td>
-	  <td><input type="text" name="pressure"  onchange="nozzleDischarge( this.form )" style="width:150px" value="1" maxlength="10" size="10" />	</td>
+	  <td><input type="text" name="pressure"  onchange="nozzleDischarge( this.form )" style="width:150px" value="30" maxlength="10" size="10" />	</td>
     <td>
        <select name="pressureUnits" onchange="nozzleDischarge( this.form )">
        <option value="1" selected="selected">psi</option>
@@ -29,7 +29,7 @@ permalink: /calculators/nozzle_size
   </tr>
   <tr>
     <td>Diameter</td>
-    <td><input type="text" name="diameter"  onchange="nozzleDischarge( this.form )" style="width:150px" value="10" size="10" maxlength="10" />	</td>
+    <td><input type="text" name="diameter"  onchange="nozzleDischarge( this.form )" style="width:150px" value=".25" size="10" maxlength="10" />	</td>
     <td>
       <select name="diameterUnits" onchange="nozzleDischarge( this.form )">
       <option value="1" selected="selected">in</option>
@@ -45,7 +45,7 @@ permalink: /calculators/nozzle_size
   </tr>
   <tr>
     <td>Flow rate</td>
-      <td><input type="text" name="flowRate" style="width:150px" value="1" size="10" maxlength="10" disabled="disabled" />	</td>
+      <td><input type="text" name="flowRate" style="width:150px" value="" size="10" maxlength="10" disabled="disabled" />	</td>
     <td>
        <select name="flowRateUnits" onchange="nozzleDischarge( this.form )">
        <option value="1" selected="selected">gpm</option>
@@ -61,7 +61,7 @@ permalink: /calculators/nozzle_size
 <table align="center">
   <tr>
     <td>Pressure</td>
-	  <td><input type="text" name="pressure"  onchange="nozzleDischarge( this.form )" style="width:150px" value="1" maxlength="10" size="10" />	</td>
+	  <td><input type="text" name="pressure"  onchange="nozzleDischarge( this.form )" style="width:150px" value="30" maxlength="10" size="10" />	</td>
     <td>
        <select name="pressureUnits" onchange="nozzleDischarge( this.form )">
        <option value="1" selected="selected">psi</option>
@@ -76,7 +76,7 @@ permalink: /calculators/nozzle_size
   </tr>
   <tr>
     <td>Flow rate</td>
-      <td><input type="text" name="flow" onchange="nozzleDiameter( this.form )" style="width:150px" value="1" size="10" maxlength="10" />	</td>
+      <td><input type="text" name="flow" onchange="nozzleDiameter( this.form )" style="width:150px" value="10" size="10" maxlength="10" />	</td>
     <td>
        <select name="flowUnits" onchange="nozzleDiameter( this.form )">
        <option value="1" selected="selected">gpm</option>
@@ -88,7 +88,7 @@ permalink: /calculators/nozzle_size
   </tr>
   <tr>
     <td>Diameter</td>
-    <td><input type="text" name="diameter" style="width:150px" value="10" size="10" maxlength="10"  disabled="disabled"/>	</td>
+    <td><input type="text" name="diameter" style="width:150px" value="" size="10" maxlength="10"  disabled="disabled"/>	</td>
     <td>
       <select name="diameterUnits" onchange="nozzleDiameter( this.form )">
       <option value="1" selected="selected">in</option>
