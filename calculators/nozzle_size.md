@@ -55,6 +55,11 @@ permalink: /calculators/nozzle_size
        </select>
     </td>
   </tr>
+  <tr>
+    <td><input type="button" onclick="nozzleDischarge( this.form )" value="Calculate"/></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 </form>
 <form  action="">
@@ -102,12 +107,19 @@ permalink: /calculators/nozzle_size
       </select>
     </td>
   </tr>
+  <tr>
+    <td><input type="button" onclick="nozzleDiameter( this.form )" value="Calculate"/></td>
+    <td></td>
+    <td></td>
+  </tr>
 </table>
 </form>
 <table align="center">
 	<tr>
 	  <td>
       <b>{{ page.title }}</b><br />
+Calculates Flow rate from a given water pressure and nozzle diameter or the nozzle diameter given the water pressure and flow rate.
+		  
 Formula for calculation is:<br />
 Flow(gpm) = 28.9 x Diamter(in) squared x sqrt Pressure(psi)<br />
 	  </td>
