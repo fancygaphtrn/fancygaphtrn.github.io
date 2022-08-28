@@ -46,7 +46,14 @@ permalink: /calculators/nozzle_size
   <tr>
     <td>Flow rate</td>
       <td><input type="text" name="flowRate" style="width:150px" value="1" size="10" maxlength="10" />	</td>
-    <td></td>
+    <td>
+       <select name="flowRateUnits" onchange="nozzleDischarge( this.form )">
+       <option value="1" selected="selected">gpm</option>
+       <option value="15.850323074">lps</option>
+       <option value="448.8311688">cfs</option>
+       <option value=".264172051">lpm</option>
+       </select>
+    </td>
   </tr>
 </table>
 </form>
