@@ -1,0 +1,64 @@
+---
+title: "Bandwidth Req. Calc"
+layout: default
+parent: Calculators
+permalink: /calculators/bandwidthcalc
+---
+# {{page.title}}
+<script src="{{ base.url | prepend: site.url }}/assets/js/nozzle_size.js"></script>
+
+<table width="100%" cellpadding="4" cellspacing="0" border="0" align="center">
+<tr>
+<td>
+<form name="temps" action="">
+<table align="center">
+  <tr>
+    <td>Pressure</td>
+	  <td><input type="text" name="pressure"  onchange="nozzleDischarge( this.form )" style="width:150px" value="1" maxlength="10" size="10" />	</td>
+	  <td>
+       <select name="pressureUnits" onchange="nozzleDischarge( this.form )">
+       <option value="1" selected="selected">psi</option>
+       <option value=".433528">ft of water</option>
+       <option value="1.422336">m of water</option>
+       <option value="14.503773773">bars</option>
+       <option value=".145038">kPa</option>
+       <option value="14.695949">atm</option>
+       <option value=".491154">in of Mercury</option>
+       </select>
+    </td>  
+</tr>
+	<tr>
+	  <td valign="top">Diameter</td>
+	  <td valign="top"><input type="text" name="diameter"  onchange="nozzleDischarge( this.form )" style="width:150px" value="10" size="10" maxlength="10" />	</td>
+	  <td>
+      <select name="diameterUnits" onchange="nozzleDischarge( this.form )">
+      <option value="1" selected="selected">in</option>
+      <option value="128">128ths in</option>
+      <option value="64">64ths in</option>
+      <option value="32">32nds in</option>
+      <option value="16">16ths in</option>
+      <option value="8">8ths in</option>
+      <option value="25.4">mm</option>
+      <option value="2.54">cm</option>
+      </select>
+    </td>
+  </tr>
+	<tr>
+	  <td valign="top">Flow rate</td>
+	  <td valign="top"><input type="text" name="flowRate" style="width:150px" value="1" size="10" maxlength="10" />	</td>
+    <td></td>
+  </tr>
+</table>
+</form>
+<table align="center">
+	<tr>
+	  <td>
+      <b>{{ page.title }}</b><br />
+Formula for calculation is:<br />
+Flow(gpm) = 28.9 x Diamter(in) squared x sqrt Pressure(psi)<br />
+	  </td>
+	</tr>
+</table>
+</td>
+</tr>
+</table>
