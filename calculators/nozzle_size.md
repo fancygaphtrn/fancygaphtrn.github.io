@@ -88,9 +88,9 @@ permalink: /calculators/nozzle_size
   </tr>
   <tr>
     <td>Diameter</td>
-    <td><input type="text" name="diameter" style="width:150px" value="10" size="10" maxlength="10" />	</td>
+    <td><input type="text" name="diameter" onchange="nozzleDiameter( this.form )" style="width:150px" value="10" size="10" maxlength="10" />	</td>
     <td>
-      <select name="diameterUnits">
+      <select name="diameterUnits" onchange="nozzleDiameter( this.form )">
       <option value="1" selected="selected">in</option>
       <option value="128">128ths in</option>
       <option value="64">64ths in</option>
