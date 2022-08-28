@@ -1,8 +1,8 @@
 ---
-title: "Bandwidth Req. Calc"
+title: "Hydro nozzle size"
 layout: default
 parent: Calculators
-permalink: /calculators/bandwidthcalc
+permalink: /calculators/nozzle_size
 ---
 # {{page.title}}
 <script src="{{ base.url | prepend: site.url }}/assets/js/nozzle_size.js"></script>
