@@ -118,8 +118,8 @@ permalink: /calculators/nozzle_size
 	<tr>
 	  <td>
       <b>{{ page.title }}</b><br />
-Calculates Flow rate from a given water pressure and nozzle diameter or the nozzle diameter given the water pressure and flow rate.
-		  
+Calculates Flow rate from a given water pressure and nozzle diameter or the nozzle diameter given the water pressure and flow rate.<br />
+<br />		  
 Formula for calculation is:<br />
 Flow(gpm) = 28.9 x Diamter(in) squared x sqrt Pressure(psi)<br />
 	  </td>
