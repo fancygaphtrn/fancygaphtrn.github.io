@@ -253,6 +253,9 @@ permalink: /projects/my_solar_performance
 </tr>
 </tbody>
 </table>
-Because the charge controllers were remote from the house.  I keep a calendar next to them.   When I remembered (which is not as often as I should), I record the accumulated amp hours on the charge controllers on the calendar, then reset the values to zero.  I then average the reading across the days from the previous reading.
+Because the charge controllers were remote from the house.  I keep a calendar next to them and when I remembered (which is not as often as I should), I record the accumulated amp hours on the charge controllers on the calendar, then reset the values to zero.
+
+I then average the reading across the days from the previous reading.
+
 Also, many times we produce more power than we need and  the charge controllers will go to float, effectively wasting energy and making the amp hours low.
 I wish I had a meter, so that I know my actual power usage.   Currently, I can only estimate based on the amount of power we generate.
