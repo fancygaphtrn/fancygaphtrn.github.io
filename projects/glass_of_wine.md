@@ -1,8 +1,8 @@
 ---
-title: "Gravity Feed Water"
+title: "Glass of Wine"
 layout: default
 parent: Projects
-permalink: /projects/gravity_feed_water
+permalink: /projects/glass_of_wine
 ---
 # {{page.title}}
 I found this interesting and thought would too.
