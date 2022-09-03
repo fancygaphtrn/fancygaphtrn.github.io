@@ -1,5 +1,5 @@
 ---
-title: "Hydro calc"
+title: "Hydro Power Calculator"
 layout: default
 parent: Calculators
 permalink: /calculators/hydrocalc
