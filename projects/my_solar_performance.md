@@ -5,7 +5,7 @@ parent: Projects
 permalink: /projects/my_solar_performance
 ---
 # {{page.title}}
-
+![Amp Hours](/assets/images/ahgraph.gif)
 <table border="2" cellpadding="0" cellspacing="0">
 <tbody>
 <tr>
