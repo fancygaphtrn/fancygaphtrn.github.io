@@ -7,4 +7,4 @@ permalink: /projects/creek_hydro
 # {{page.title}}
 
 
-![Creek Elevation](/assets/images/creek elevation.png)
+![Creek Elevation](/assets/images/creek%20elevation.png)
