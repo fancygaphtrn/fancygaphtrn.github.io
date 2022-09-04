@@ -57,7 +57,12 @@ plugins:
 
 include: ["_pages", "_posts"]
 
-- scope:
-    path:            /google*.html
-  values:
-    sitemap:         false
+defaults:
+  - scope:
+      path:            /google*.html
+    values:
+      sitemap:         false
+  - scope:
+      path:            assets/**
+    values:
+      sitemap:         false
