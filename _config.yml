@@ -33,7 +33,6 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-  - jekyll-sitemap
   
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -57,9 +56,3 @@ plugins:
 
 include: ["_pages", "_posts"]
 
-defaults:
-  -
-    scope:
-      path:            "/google*.html"
-    values:
-      sitemap:         false
