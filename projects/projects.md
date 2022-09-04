@@ -45,7 +45,7 @@ permalink: /projects
     {% for repository in filtered_repos | limit: site.projects.limit %}
     {% unless site.projects.exclude.projects contains repository.name %}
     <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">
-        {% include repo-card.html %}
+        {% include /projects/repo-card.html %}
     </div>
     {% endunless %}
     {% endfor %}
