@@ -33,6 +33,7 @@ remote_theme: just-the-docs/just-the-docs
 plugins:
 #  - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-last-modified-at
 #  - jekyll-sitemap
   
 # Exclude from processing.
