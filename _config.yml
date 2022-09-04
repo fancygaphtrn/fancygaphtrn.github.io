@@ -31,7 +31,7 @@ github_username:  fancygaphtrn
 #theme: jekyll-theme-tactile
 remote_theme: just-the-docs/just-the-docs
 plugins:
-  - jekyll-feed
+#  - jekyll-feed
   - jekyll-remote-theme
   
 # Exclude from processing.
@@ -42,8 +42,7 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-exclude:
-  - assets/
+#  exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
