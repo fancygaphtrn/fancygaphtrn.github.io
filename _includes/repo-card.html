@@ -1,6 +1,4 @@
-<table>
-<tr><td>
-    <a href="{{ repository.html_url }}"> {{ repository.name }} </a><br />
+<a href="{{ repository.html_url }}"> {{ repository.name }} </a><br />
 {{ repository.description }} 
 {% if repository.language %}
 {{ repository.language }}
@@ -25,5 +23,3 @@
     </svg>{{ repository.forks_count }}
 </a>
 {% endif %}
-    </td></tr>
-</table>
