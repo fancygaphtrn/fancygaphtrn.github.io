@@ -31,8 +31,10 @@ My most popular repositories on GitHub.
     | reverse %}
 {% endif %}
 
+<table><tr>
 {% for repository in filtered_repos | limit: site.projects.limit %}
 {% unless site.projects.exclude.projects contains repository.name %}
-<table><tr><td> {% include repo-card.html %} </td></tr></table>
+<td> {% include repo-card.html %} </td>
 {% endunless %}
 {% endfor %}
+</tr></table>    
