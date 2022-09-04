@@ -21,7 +21,7 @@ permalink: /calculators/hydrocalc
     <tr>
   	  <td valign="top"><input type="text" name="head2" onChange="docalc2()" style="width:6em" value="" maxlength="6" size="6" />	</td>
   	  <td valign="top"><input type="text" name="flow2" onChange="docalc2()" style="width:6em" value="" maxlength="6" size="6" />	</td>
-  	  <td valign="top"><input type="text" name="efficiency2" onChange="docalc2()" style="width:3em" value="50" maxlength="3" size="3" />	</td>
+  	  <td valign="top"><input type="text" name="efficiency2" onChange="docalc2()" style="width:3em" value="25" maxlength="3" size="3" />	</td>
   	  <td valign="top"><input type="text" name="watts2" disabled="disabled" style="width:6em" value="" maxlength="6" size="6" />	</td>
   	  <td valign="top"><input type="button"  value="Clear" onClick="clearForm2()" />	</td>
     </tr>
@@ -77,7 +77,7 @@ The key equation to remember is the following:
 <br />Power = Head x Flow x Gravity - System Effiency<br /><br />
 where power is measured in Watts, head in meters or feet, flow in liters per second or 
 gallons per minute, and acceleration due to gravity.  Effiency depends on the many factors.
-typical values are between 50% and 75%.<br /><br />
+typical values are between 25% and 50%.<br /><br />
 When evaluating a site it may be difficult to measure the head.  If possible you could use
 water hose.   Run the hose between the water source and the turbine location.  Make sure the 
 water is not flowing or static, and there are is not any air in the line.  You can then measure 
