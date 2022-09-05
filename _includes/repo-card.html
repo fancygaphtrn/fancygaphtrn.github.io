@@ -1,6 +1,6 @@
 <a href="{{ repository.html_url }}" target="_blank"> {{ repository.name }} </a><br />
 {{ repository.description }} 
-{% if repository.language %}
+{% if repository.language %}<br />
 <span class="ml-2">{{ repository.language }}</span>
 {% endif %}
 {% if repository.stargazers_count %}
