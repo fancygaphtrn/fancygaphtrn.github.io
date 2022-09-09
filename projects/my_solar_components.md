@@ -59,5 +59,5 @@ permalink: /projects/my_solar_components
 </table>
 <p align="left"><br/> <strong>Charge Controller<br/> </strong>String 1 - Xantrex (Trace) C60 w/meter<br/> String 2 - MPPT w/meter</p>
 <p align="left"><strong>Inverter</strong><br/> Xantrex (Trace) SW4024 Plus<br/> Trace SW4024 (Backup)</p>
-<p align="left"><strong>Battery</strong><br/> 4 US battery 6 volt by 400 AH </p>
-<p align="left"><strong>Meter<br/> </strong>Trimetric 2020</p>
+<p align="left"><strong>Battery</strong><br/> 4 US battery L16HCXC2 6 volt by 400 AH </p>
+<p align="left"><strong>Meter<br/> </strong>Trimetric 2030-RV</p>
