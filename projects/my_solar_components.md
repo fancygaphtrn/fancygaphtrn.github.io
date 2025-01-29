@@ -8,7 +8,6 @@ permalink: /projects/my_solar_components
 
 <table border="1" cellpadding="0" cellspacing="0">
 <tbody>
-<tbody>
 <tr>
 <th>String</th>
 <th>Model</th>
