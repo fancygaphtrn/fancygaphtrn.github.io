@@ -105,5 +105,5 @@ permalink: /projects/my_solar_components
 </table>
 <p align="left"><br/> <strong>Charge Controller<br/> </strong>String 1 - Renogy Rover 60<br/> String 2 - Renogy Rover 60<br/> String 3 - Renogy Rover 60</p>
 <p align="left"><strong>Inverter</strong><br/> Xantrex (Trace) SW4024 Plus<br/> Trace SW4024 (Backup)</p>
-<p align="left"><strong>Battery</strong><br/>2 -  2 Kilovault HLX 3600<br />2 - DIY 208ah EVE battery JK BMS<br />3 - DIY 208ah EVE battery JK BMS </p>
+<p align="left"><strong>Battery</strong><br/>2 -  2 Kilovault HLX 3600<br />2 - DIY 280ah EVE battery JK BMS<br />3 - DIY 280ah EVE battery JK BMS </p>
 <p align="left"><strong>Meter<br/> </strong>Trimetric 2030-RV</p>
