@@ -8,17 +8,20 @@ permalink: /projects/my_solar_components
 
 <table border="1" cellpadding="0" cellspacing="0">
 <tbody>
-<tr>
-<th>String</th><th>Model</th><th>Quantity</th><th>Watts</th><th>Total</th>
-</tr>
-</tbody>
 <tbody>
 <tr>
-<td rowspan="5" align="center">1</td>
-<td>Sharp NT-R5E1U</td>
+<th>String</th>
+<th>Model</th>
+<th>Quantity</th>
+<th>Watts</th>
+<th>Total Watts</th>
+</tr>
+<tr>
+<td colspan="1" rowspan="4">1</td>
+<td>SG-200WM24</td>
 <td align="right">2</td>
-<td align="right">175</td>
-<td align="right">350</td>
+<td align="right">200</td>
+<td align="right">400</td>
 </tr>
 <tr>
 <td>Shell SP-150-P</td>
@@ -33,27 +36,70 @@ permalink: /projects/my_solar_components
 <td align="right">370</td>
 </tr>
 <tr>
-<td>Sunwise SW120</td>
-<td align="right">2</td>
-<td align="right">120</td>
-<td align="right">240</td>
-</tr>
-<tr>
 <td>BP Solar BP275</td>
 <td align="right">4</td>
 <td align="right">75</td>
 <td align="right">300</td>
 </tr>
 <tr>
-<td align="center">2</td>
+<td>&nbsp;</td>
+<td>Subtotal</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td align="right">1,370</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="2">2</td>
 <td>Sharp NE-165U1</td>
 <td align="right">6</td>
 <td align="right">165</td>
 <td align="right">990</td>
 </tr>
 <tr>
-<td colspan="4">Total</td>
-<td align="right">2550</td>
+<td>RS-M200D</td>
+<td align="right">2</td>
+<td align="right">200</td>
+<td align="right">400</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>Subtotal</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td align="right">1,390</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="1" rowspan="1">3</td>
+<td>CS CS3K-295</td>
+<td align="right">6</td>
+<td align="right">295</td>
+<td align="right">1,770</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td colspan="3">&nbsp;</td>
+<td>Total</td>
+<td align="right">4,530</td>
 </tr>
 </tbody>
 </table>
